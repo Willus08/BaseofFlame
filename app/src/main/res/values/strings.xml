@@ -14,7 +14,7 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
-    <string name="login_oauth">1102293944307-j3sup687td09gfbn5tmmkedj1kh007sa.apps.googleusercontent.com</string>
+    <string name="login_oauth">102293944307-demrcjcnp3c9oqtue0c3n8ff3o6q2db2.apps.googleusercontent.com</string>
     <string name="facebook_app_id">199009463964660</string>
     <string name="fb_login_protocol_scheme">fb199009463964660</string>
     <string name="fbFirebaseOauth">https://baseofflame.firebaseapp.com/__/auth/handler</string>
