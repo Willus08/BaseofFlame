@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "102293944307",
+    "firebase_url": "https://baseofflame.firebaseio.com",
+    "project_id": "baseofflame",
+    "storage_bucket": "baseofflame.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:102293944307:android:f211e97f11fad18c",
+        "android_client_info": {
+          "package_name": "posidenpalace.com.baseofflame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "102293944307-demrcjcnp3c9oqtue0c3n8ff3o6q2db2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4hNgw-i1Wl8pFPrNjk7dZtSZRrKTsvDI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
