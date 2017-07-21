@@ -54,6 +54,25 @@ public class LogIn extends AppCompatActivity {
         email = (EditText) findViewById(R.id.etEmail);
         password= (EditText) findViewById(R.id.etWebPassword);
         myRef.setValue("Hello, World!");
+//
+//        PackageInfo info;
+//       try {
+//            info = getPackageManager().getPackageInfo("com.batchmates.android.firebase", PackageManager.GET_SIGNATURES);
+//            for (Signature signature : info.signatures) {
+//                MessageDigest md;
+//                md = MessageDigest.getInstance("SHA");
+//                md.update(signature.toByteArray());
+//                String something = new String(Base64.encode(md.digest(), 0));
+//                //String something = new String(Base64.encodeBytes(md.digest()));
+//                Log.e("hash key", something);
+//            }
+//        } catch (PackageManager.NameNotFoundException e1) {
+//            Log.e("name not found", e1.toString());
+//        } catch (NoSuchAlgorithmException e) {
+//            Log.e("no such an algorithm", e.toString());
+//        } catch (Exception e) {
+//            Log.e("exception", e.toString());
+//        }6XLMc6wBV0wE0Bk1WZEImICR5rs=
 
         mAuthListener = new FirebaseAuth.AuthStateListener() {
             @Override
@@ -149,6 +168,8 @@ public class LogIn extends AppCompatActivity {
                         if (task.isSuccessful()) {
                             // Sign in success, update UI with the signed-in user's information
                             Log.d(TAG, "signInWithCredential:success");
+                            Intent intent = new Intent(LogIn.this,MainActivity.class);
+                            startActivity(intent);
                             FirebaseUser user = mAuth.getCurrentUser();
                             updateUI(user);
                         } else {
